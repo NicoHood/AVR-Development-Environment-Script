@@ -1,0 +1,12 @@
+*.bz2
+*.gz
+*~
+binutils-*/*
+gcc-*/*
+isl-*/*
+cloog-*/*
+gmp-*/*
+mpfr-*/*
+mpc-*/*
+avr-libc-*/*
+avrdude-*/*

@@ -10,3 +10,4 @@ mpfr-*/*
 mpc-*/*
 avr-libc-*/*
 avrdude-*/*
+bin/*

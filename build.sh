@@ -114,11 +114,7 @@ fi
 # /gcc-5.3.0/config.guess x86_64-unknown-linux-gnu
 # /avr-libc-2.0.0/config.guess x86_64-unknown-linux-gnu
 # config_guess=`./binutils-$BINUTILS_VERSION/config.guess`
-#
-# if [ "$HOST" == "" ]; then
-#   export HOST=${config_guess}
-# fi
-#
+
 export pkgdir=${home}/bin
 rm -rf $pkgdir
 mkdir -p $pkgdir

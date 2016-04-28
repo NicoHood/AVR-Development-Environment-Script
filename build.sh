@@ -43,11 +43,11 @@
 # http://download.savannah.gnu.org/releases/avrdude/
 
 export BINUTILS_VERSION=2.26
-export GCC_VERSION=5.3.0
+export GCC_VERSION=6.1.0
 export ISL_VERSION=0.16.1
 export CLOOG_VERSION=0.18.4
 export GMP_VERSION=6.1.0
-export MPFR_VERSION=3.1.3
+export MPFR_VERSION=3.1.4
 export MPC_VERSION=1.0.3
 export AVRLIBC_VERSION=2.0.0
 export AVRDUDE_VERSION=6.3

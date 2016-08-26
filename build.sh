@@ -134,7 +134,7 @@ tar xf binutils-$BINUTILS_VERSION.tar.bz2
 cd binutils-$BINUTILS_VERSION
 
 # Patch and configure
-curl https://projects.archlinux.org/svntogit/community.git/plain/trunk/avr-size.patch?h=packages/avr-binutils > 01-avr-size.patch
+curl -L https://projects.archlinux.org/svntogit/community.git/plain/trunk/avr-size.patch?h=packages/avr-binutils > 01-avr-size.patch
 patch -Np0 < 01-avr-size.patch
 
 sed -i "/ac_cpp=/s/\$CPPFLAGS/\$CPPFLAGS -O2/" libiberty/configure
